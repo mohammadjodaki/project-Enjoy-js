@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@font-face {
+    font-family: Banchero;
+    src: url('../fonts/Banchero-Bold.ttf');
+}
+@font-face {
+    font-family: Montserrat;
+    src: url('../fonts/Montserrat-Thin.ttf');
+}
