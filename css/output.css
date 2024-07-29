@@ -586,6 +586,10 @@ video {
   bottom: 2.5rem;
 }
 
+.bottom-12 {
+  bottom: 3rem;
+}
+
 .bottom-20 {
   bottom: 5rem;
 }
@@ -698,14 +702,6 @@ video {
   top: 1.25rem;
 }
 
-.bottom-1 {
-  bottom: 0.25rem;
-}
-
-.bottom-12 {
-  bottom: 3rem;
-}
-
 .z-0 {
   z-index: 0;
 }
@@ -745,6 +741,14 @@ video {
 
 .mt-7 {
   margin-top: 1.75rem;
+}
+
+.ml-44 {
+  margin-left: 11rem;
+}
+
+.ml-96 {
+  margin-left: 24rem;
 }
 
 .flex {
@@ -799,10 +803,6 @@ video {
   height: 600px;
 }
 
-.h-24 {
-  height: 6rem;
-}
-
 .w-1\/2 {
   width: 50%;
 }
@@ -851,8 +851,28 @@ video {
   width: 100%;
 }
 
-.w-24 {
-  width: 6rem;
+.max-w-full {
+  max-width: 100%;
+}
+
+.translate-x-1\/2 {
+  --tw-translate-x: 50%;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.translate-y-1\/2 {
+  --tw-translate-y: 50%;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.-translate-x-1\/2 {
+  --tw-translate-x: -50%;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.-translate-y-1\/2 {
+  --tw-translate-y: -50%;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
 .-rotate-12 {
@@ -886,10 +906,6 @@ video {
 
 .justify-between {
   justify-content: space-between;
-}
-
-.overflow-x-hidden {
-  overflow-x: hidden;
 }
 
 .bg-\[\#C8CDD4\] {
@@ -1018,11 +1034,6 @@ video {
   line-height: 1.25rem;
 }
 
-.text-xl {
-  font-size: 1.25rem;
-  line-height: 1.75rem;
-}
-
 .font-bold {
   font-weight: 700;
 }
@@ -1086,6 +1097,22 @@ video {
 .\*\:mx-3 > * {
   margin-left: 0.75rem;
   margin-right: 0.75rem;
+}
+
+.\*\:ml-96 > * {
+  margin-left: 24rem;
+}
+
+.\*\:ml-\[\] > * {
+  margin-left: ;
+}
+
+.\*\:ml-\[450\] > * {
+  margin-left: 450;
+}
+
+.\*\:ml-\[450px\] > * {
+  margin-left: 450px;
 }
 
 .hover\:-rotate-12:hover {
@@ -1261,6 +1288,11 @@ video {
   .lg\:text-lg {
     font-size: 1.125rem;
     line-height: 1.75rem;
+  }
+
+  .lg\:text-5xl {
+    font-size: 3rem;
+    line-height: 1;
   }
 }
 
