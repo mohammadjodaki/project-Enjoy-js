@@ -706,6 +706,14 @@ video {
   top: 1.25rem;
 }
 
+.bottom-1 {
+  bottom: 0.25rem;
+}
+
+.bottom-5 {
+  bottom: 1.25rem;
+}
+
 .z-0 {
   z-index: 0;
 }
