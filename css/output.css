@@ -706,18 +706,6 @@ video {
   top: 1.25rem;
 }
 
-.bottom-1 {
-  bottom: 0.25rem;
-}
-
-.bottom-5 {
-  bottom: 1.25rem;
-}
-
-.z-0 {
-  z-index: 0;
-}
-
 .z-20 {
   z-index: 20;
 }
@@ -1031,9 +1019,9 @@ video {
   line-height: 2.25rem;
 }
 
-.text-5xl {
-  font-size: 3rem;
-  line-height: 1;
+.text-4xl {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
 }
 
 .text-6xl {
@@ -1059,11 +1047,6 @@ video {
 .text-xl {
   font-size: 1.25rem;
   line-height: 1.75rem;
-}
-
-.text-4xl {
-  font-size: 2.25rem;
-  line-height: 2.5rem;
 }
 
 .font-bold {
