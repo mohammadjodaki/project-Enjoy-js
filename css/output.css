@@ -578,8 +578,16 @@ video {
   left: -1rem;
 }
 
+.-top-2 {
+  top: -0.5rem;
+}
+
 .-top-20 {
   top: -5rem;
+}
+
+.-top-5 {
+  top: -1.25rem;
 }
 
 .bottom-0 {
@@ -642,8 +650,16 @@ video {
   left: 7rem;
 }
 
+.left-3 {
+  left: 0.75rem;
+}
+
 .left-36 {
   left: 9rem;
+}
+
+.left-6 {
+  left: 1.5rem;
 }
 
 .left-7 {
@@ -789,6 +805,10 @@ video {
 
 .h-48 {
   height: 12rem;
+}
+
+.h-72 {
+  height: 18rem;
 }
 
 .h-\[400px\] {
@@ -961,9 +981,18 @@ video {
   background-repeat: no-repeat;
 }
 
+.fill-cyan-500 {
+  fill: #06b6d4;
+}
+
 .px-10 {
   padding-left: 2.5rem;
   padding-right: 2.5rem;
+}
+
+.px-2 {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
 }
 
 .px-20 {
@@ -974,6 +1003,16 @@ video {
 .px-5 {
   padding-left: 1.25rem;
   padding-right: 1.25rem;
+}
+
+.px-9 {
+  padding-left: 2.25rem;
+  padding-right: 2.25rem;
+}
+
+.py-24 {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
 }
 
 .py-60 {
@@ -1097,6 +1136,10 @@ video {
   transition-duration: 300ms;
 }
 
+.duration-500 {
+  transition-duration: 500ms;
+}
+
 @font-face {
   font-family: Banchero;
 
@@ -1114,13 +1157,54 @@ video {
   margin-right: 0.75rem;
 }
 
+.\*\:mb-9 > * {
+  margin-bottom: 2.25rem;
+}
+
 .\*\:ml-\[450px\] > * {
   margin-left: 450px;
+}
+
+.\*\:rounded-xl > * {
+  border-radius: 0.75rem;
+}
+
+.\*\:border-4 > * {
+  border-width: 4px;
+}
+
+.\*\:border-amber-400 > * {
+  --tw-border-opacity: 1;
+  border-color: rgb(251 191 36 / var(--tw-border-opacity));
+}
+
+.\*\:p-2 > * {
+  padding: 0.5rem;
 }
 
 .hover\:-rotate-12:hover {
   --tw-rotate: -12deg;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.group:hover .group-hover\:fill-\[\#008935\] {
+  fill: #008935;
+}
+
+.group:hover .group-hover\:fill-\[\#0d2ce0\] {
+  fill: #0d2ce0;
+}
+
+.group:hover .group-hover\:fill-\[\#B7388D\] {
+  fill: #B7388D;
+}
+
+.group:hover .group-hover\:fill-\[\#FFCF06\] {
+  fill: #FFCF06;
+}
+
+.group:hover .group-hover\:fill-yellow-400 {
+  fill: #facc15;
 }
 
 @media (min-width: 640px) {
@@ -1251,6 +1335,10 @@ video {
     display: none;
   }
 
+  .lg\:h-96 {
+    height: 24rem;
+  }
+
   .lg\:h-\[380px\] {
     height: 380px;
   }
@@ -1287,6 +1375,14 @@ video {
     width: 60%;
   }
 
+  .lg\:w-40 {
+    width: 10rem;
+  }
+
+  .lg\:w-5\/12 {
+    width: 41.666667%;
+  }
+
   .lg\:w-\[580px\] {
     width: 580px;
   }
@@ -1301,6 +1397,11 @@ video {
 
   .lg\:p-40 {
     padding: 10rem;
+  }
+
+  .lg\:px-0 {
+    padding-left: 0px;
+    padding-right: 0px;
   }
 
   .lg\:px-20 {
@@ -1325,6 +1426,11 @@ video {
   .lg\:text-4xl {
     font-size: 2.25rem;
     line-height: 2.5rem;
+  }
+
+  .lg\:text-6xl {
+    font-size: 3.75rem;
+    line-height: 1;
   }
 
   .lg\:text-7xl {
