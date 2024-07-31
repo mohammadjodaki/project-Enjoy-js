@@ -722,6 +722,30 @@ video {
   top: 1.25rem;
 }
 
+.-left-0 {
+  left: -0px;
+}
+
+.-left-1 {
+  left: -0.25rem;
+}
+
+.-left-2 {
+  left: -0.5rem;
+}
+
+.left-2 {
+  left: 0.5rem;
+}
+
+.-top-0 {
+  top: -0px;
+}
+
+.-top-1 {
+  top: -0.25rem;
+}
+
 .z-20 {
   z-index: 20;
 }
@@ -769,6 +793,14 @@ video {
 
 .mt-7 {
   margin-top: 1.75rem;
+}
+
+.mr-10 {
+  margin-right: 2.5rem;
+}
+
+.ml-10 {
+  margin-left: 2.5rem;
 }
 
 .flex {
@@ -885,6 +917,10 @@ video {
 
 .w-full {
   width: 100%;
+}
+
+.w-1\/3 {
+  width: 33.333333%;
 }
 
 .max-w-full {
@@ -1140,6 +1176,10 @@ video {
   transition-duration: 500ms;
 }
 
+.duration-700 {
+  transition-duration: 700ms;
+}
+
 @font-face {
   font-family: Banchero;
 
@@ -1187,6 +1227,10 @@ video {
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
+.hover\:font-bold:hover {
+  font-weight: 700;
+}
+
 .group:hover .group-hover\:fill-\[\#008935\] {
   fill: #008935;
 }
@@ -1197,6 +1241,10 @@ video {
 
 .group:hover .group-hover\:fill-\[\#B7388D\] {
   fill: #B7388D;
+}
+
+.group:hover .group-hover\:fill-\[\#FFCC00\] {
+  fill: #FFCC00;
 }
 
 .group:hover .group-hover\:fill-\[\#FFCF06\] {
@@ -1446,6 +1494,10 @@ video {
   .lg\:text-lg {
     font-size: 1.125rem;
     line-height: 1.75rem;
+  }
+
+  .lg\:font-bold {
+    font-weight: 700;
   }
 }
 
