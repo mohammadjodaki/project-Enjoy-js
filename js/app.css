@@ -5,7 +5,6 @@
     display: flex;  
     align-items: center;  
     justify-content: center;  
-    padding: 20px; /* به عنوان مثال */  
 }
 .swiper-slide img {
     transition: all 0.3s ease;
