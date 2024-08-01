@@ -1,0 +1,18 @@
+.swiper-slide {
+    transition: all 0.3s ease;
+}
+.swiper-slide {  
+    display: flex;  
+    align-items: center;  
+    justify-content: center;  
+    padding: 20px; /* به عنوان مثال */  
+}
+.swiper-slide img {
+    transition: all 0.3s ease;
+}
+@media (max-width: 1023px) {
+    .swiper-slide img {
+        height: 100vh;
+        object-fit: cover;
+    }
+}
