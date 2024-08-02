@@ -15,3 +15,11 @@
         object-fit: cover;
     }
 }
+#fullscreen-menu {
+    display: none;
+}
+
+#fullscreen-menu.flex {
+    display: flex !important;
+}
+

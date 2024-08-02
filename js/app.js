@@ -1,4 +1,19 @@
 ////////////////////////////////////     menu home       //////////////////////////////////////////////////
+    const menuToggle = document.getElementById('menu-toggle');
+    const closeMenu = document.getElementById('close-menu');
+    const fullscreenMenu = document.getElementById('fullscreen-menu');
+
+    menuToggle.addEventListener('click' , ()=>{
+        fullscreenMenu.classList.toggle('flex');
+        fullscreenMenu.classList.toggle('hidden');
+        document.body.classList.toggle('overflow-hidden');
+        
+        if (fullscreenMenu.classList.contains('flex')) {
+            menuToggle.innerHTML = '×';
+        } else {
+            menuToggle.innerHTML = '☰';
+        }
+    })
 
 ///////////////////////////////////////////        slider            ////////////////////////////////////////////////////////
 var swiper = new Swiper(".mySwiper", {
