@@ -16,10 +16,10 @@
 #fullscreen-menu.flex {
     display: flex !important;
 }
-@media (max-width: 1023px) {
+/* @media (max-width: 1023px) {
     .swiper-slide img {
         height: 100%;
         width: 100%;
         object-fit: cover;
     }
-}
+} */
