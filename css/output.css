@@ -762,6 +762,18 @@ video {
   top: 1.25rem;
 }
 
+.right-32 {
+  right: 8rem;
+}
+
+.right-52 {
+  right: 13rem;
+}
+
+.right-2 {
+  right: 0.5rem;
+}
+
 .z-20 {
   z-index: 20;
 }
